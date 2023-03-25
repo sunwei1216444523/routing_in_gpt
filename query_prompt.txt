@@ -1,0 +1,16 @@
+I have one graph, and there are 9 nodes(A-I) in this graph, and i know some connectivity of them,
+besides, i know cost of those given connected pair. And i will show you the connectivity table,
+the ∞ represent i don't know distance between two nodes, and the number represent the distance between
+two nodes. Then, i need you told me the shortest path from A to I, and show me tha passed nodes.
+
+random graph table:
+    A   B   C   D   E   F   G   H   I
+A   0   3   4   ∞   8   ∞   ∞   ∞   ∞
+B   3   0   ∞   4   ∞   ∞   ∞   ∞   ∞
+C   4   ∞   0   ∞   2   ∞   4   ∞   ∞
+D   ∞   4   ∞   0   ∞   3   ∞   ∞   ∞
+E   8   ∞   2   ∞   0   ∞   ∞   4   ∞
+F   ∞   ∞   ∞   3   ∞   0   ∞   ∞   5
+G   ∞   ∞   4   ∞   ∞   ∞   0   4   ∞
+H   ∞   ∞   ∞   ∞   4   ∞   4   0   7
+I   ∞   ∞   ∞   ∞   ∞   5   ∞   7   0
